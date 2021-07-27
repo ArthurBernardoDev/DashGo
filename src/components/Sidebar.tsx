@@ -13,7 +13,7 @@ export function Sidebar() {
                             <Icon as={RiDashboardLine} fontSize="20" />
                             <Text ml="4" fontWeight="medium">Dashboard</Text>
                         </Link>
-                        <Link display="flex" align="center">
+                        <Link display="flex" align="center" href="/users">
                             <Icon as={RiContactsLine} fontSize="20" />
                             <Text ml="4" fontWeight="medium">Usuarios</Text>
                         </Link>
