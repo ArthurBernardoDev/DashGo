@@ -14,7 +14,7 @@ export default function UserList() {
 
                 <Box flex="1" borderRadius={8} bg="gray.800" p="8">
                     <Flex mb="8" justify="space-between" align="center">
-                        <Heading size="lg" fontWeight="normal">
+                        <Heading size="lg" fw="normal">
                             Usuários
                         </Heading>
                         <Button as="a" size="sm" fontSize="sm" colorScheme="pink" leftIcon={<Icon as={RiAddLine} fontSize="20" />}>
@@ -47,7 +47,7 @@ export default function UserList() {
                                 </Td>
                                 <Td>
                                     <Box>
-                                        <Text FontWeight="bold" >Arthur Bernardo</Text>
+                                        <Text fw="bold" >Arthur Bernardo</Text>
                                         <Text fontSize="sm" color="gray.300">contato.arthurbernardoas@gmail.com</Text>
                                     </Box>
                                 </Td>
@@ -66,7 +66,7 @@ export default function UserList() {
                                 </Td>
                                 <Td>
                                     <Box>
-                                        <Text FontWeight="bold" >Arthur Bernardo</Text>
+                                        <Text fw="bold" >Arthur Bernardo</Text>
                                         <Text fontSize="sm" color="gray.300">contato.arthurbernardoas@gmail.com</Text>
                                     </Box>
                                 </Td>
@@ -85,7 +85,7 @@ export default function UserList() {
                                 </Td>
                                 <Td>
                                     <Box>
-                                        <Text FontWeight="bold" >Arthur Bernardo</Text>
+                                        <Text fw="bold" >Arthur Bernardo</Text>
                                         <Text fontSize="sm" color="gray.300">contato.arthurbernardoas@gmail.com</Text>
                                     </Box>
                                 </Td>
