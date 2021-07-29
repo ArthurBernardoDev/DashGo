@@ -76,7 +76,7 @@ export default function DashBoard() {
 
                 <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start">
                     <Box
-                        p="8"
+                        p={["6", "8"]}
                         bg="gray.800"
                         borderRadius={8}
                         pg="4"
@@ -85,7 +85,7 @@ export default function DashBoard() {
                         <Chart options={options} series={series} type="area" height={160} />
                     </Box>
                     <Box
-                        p="8"
+                        p={["6", "8"]}
                         bg="gray.800"
                         borderRadius={8}
                     >
