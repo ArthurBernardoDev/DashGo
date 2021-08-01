@@ -8,7 +8,7 @@ export function NotificationsNav() {
             mx={["6", "8"]}
             pr={["6", "8"]}
             py="1"
-            color="gray.300"
+            color="gray.400"
             borderRightWidth={1}
             borderColor="gray.700"
 
